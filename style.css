@@ -843,6 +843,7 @@ main {
     justify-content: space-between;
 }
 
+
 .rating__img {
     width: 20%;
 }
@@ -866,6 +867,7 @@ main {
 .testimonial__buttons {
     display: flex;
     align-items: center;
+    
 }
 
 .divider {
@@ -887,6 +889,9 @@ main {
     margin: 0 12px;
     transition: all 300ms ease;
     border: none;
+}
+.testimonial__button:hover{
+    background-color: rgb(229, 231, 235);
 }
 
 .testimonial__button svg {
